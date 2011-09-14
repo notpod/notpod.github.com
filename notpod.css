@@ -1,0 +1,45 @@
+
+body {
+    margin: auto; /* center in viewport */
+    width: 900px;
+}
+
+.logo {
+
+	width: 450px;
+	height: 150px;
+	float: left;
+}
+
+.menubuttons {
+
+	width: 450px;
+	height: 150px;
+	padding-top:46px;
+	float: right;
+	text-align: right;
+}
+
+.clear {
+
+	clear: both;
+}
+
+.carousel {
+
+	width: 900px;	
+	text-align: center;
+}
+
+.links {
+
+	width: 900px;
+	text-align: center;
+}
+
+.footer {
+	
+	width: 900px;
+	height: 25px;
+	background-color: #CECECE;
+}
