@@ -2,6 +2,7 @@
 body {
     margin: auto; /* center in viewport */
     width: 900px;
+    font-family: Verdana;
 }
 
 .logo {
@@ -14,7 +15,7 @@ body {
 .menubuttons {
 
 	width: 450px;
-	height: 150px;
+	height: 104px;
 	padding-top:46px;
 	float: right;
 	text-align: right;
@@ -28,18 +29,70 @@ body {
 .carousel {
 
 	width: 900px;	
+	margin: auto;
 	text-align: center;
 }
 
-.links {
+.header {
+	width: auto;
+	font-size: 80px;
+	color: #3f7ec9;
+	text-align: right;
+}
+
+.description {
 
 	width: 900px;
-	text-align: center;
+	height: 166px;
+	font-family: Verdana;
+	font-size: 18px;
+	text-align: left;	
+	padding: 25px;
+
+}
+
+.smaller-description {
+
+	width: 900px;
+	font-family: Verdana;
+	font-size: 14px;
+	text-align: left;	
+	padding: 25px;
+
+}
+
+.description-icon {
+
+	float: left;
+}
+
+.description-text {
+	
+	padding-top: 30px;
+}
+
+.download-link {
+
+	width: 900px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	text-align: right;
+}
+
+.biglink {
+
+	font-size: 42px;
+	color: #3f7ec9;
 }
 
 .footer {
-	
-	width: 900px;
-	height: 25px;
+	padding-top: 4px;
+	width: auto;
+	height: 21px;
 	background-color: #CECECE;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 10px;
+
 }
