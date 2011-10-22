@@ -51,6 +51,22 @@ body {
 
 }
 
+.support-option {
+
+	width: 900px;
+	font-family: Verdana;
+	font-size: 16px;
+	text-align: left;	
+	padding: 25px;
+
+}
+
+.support-option-title {
+
+	font-size: 20pt;
+	font-weight: bold;
+}
+
 .smaller-description {
 
 	width: 900px;
