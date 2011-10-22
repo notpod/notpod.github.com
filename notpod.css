@@ -43,12 +43,17 @@ body {
 .description {
 
 	width: 900px;
-	height: 166px;
+/*	height: 166px;*/
 	font-family: Verdana;
 	font-size: 18px;
 	text-align: left;	
 	padding: 25px;
 
+}
+
+.home-question {
+
+	height: 170px;
 }
 
 .support-option {
@@ -62,6 +67,22 @@ body {
 }
 
 .support-option-title {
+
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.screencast {
+
+	width: 900px;
+	font-family: Verdana;
+	font-size: 16px;
+	text-align: left;	
+	padding: 25px;
+
+}
+
+.screencast-title {
 
 	font-size: 20pt;
 	font-weight: bold;
