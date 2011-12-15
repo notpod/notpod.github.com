@@ -45,22 +45,33 @@ body {
 	width: 900px;
 /*	height: 166px;*/
 	font-family: Verdana;
-	font-size: 18px;
+	font-size: 14px;
 	text-align: left;	
 	padding: 25px;
 
 }
 
-.home-question {
+.home-links {
 
 	height: 170px;
+	font-size: 64px;
+	color: #3f7ec9;
+	font-family: georgia;
+	font-weight: bold;
+	text-align: center;
+}
+
+.home-links a {
+	
+	color: #3f7ec9;
+	text-decoration: none;
 }
 
 .support-option {
 
 	width: 900px;
 	font-family: Verdana;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: left;	
 	padding: 25px;
 
@@ -132,4 +143,20 @@ body {
 	vertical-align: middle;
 	font-size: 10px;
 
+}
+
+.ita-notice {
+
+	margin: auto;
+	margin-bottom: 10px;
+	width: 600px;
+	background: #98d097;
+	border: 1px solid #176f15;
+	padding: 10px;
+	font-size: 12px;	
+}
+
+.ita-notice-expanded {
+
+	display: none;
 }
