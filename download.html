@@ -5,6 +5,12 @@
 		<title>Notpod - Portable entertainment manager</title>
 		<link rel="stylesheet" type="text/css" href="notpod.css" />
 		<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.0/build/cssgrids/grids-min.css">
+		<script type="text/javascript">
+		  function recordOutboundLink(link, category, action) {
+		    _gat._getTrackerByName()._trackEvent(category, action);
+		    setTimeout('document.location = "' + link.href + '"', 100);
+		  }
+		</script>
 	</head>
 	<body>
 
@@ -31,10 +37,10 @@
 						<b>The latest version is 1.4.1 released December 25th 2011.</b>
 					</p>
 					<div class="download-link">
-						<img src="windows-icon.png">&nbsp;<a class="biglink" href="https://github.com/downloads/notpod/Notpod-1.x/notpod-1.4.1-installer.exe">Notpod 1.4.1 installer</a>						
+						<img src="windows-icon.png">&nbsp;<a class="biglink" href="https://github.com/downloads/notpod/Notpod-1.x/notpod-1.4.1-installer.exe" onClick="recordOutboundLink(this, 'Outbound Links', 'https://github.com/downloads/notpod/Notpod-1.x/notpod-1.4.1-installer.exe');return false;">Notpod 1.4.1 installer</a>						
 					</div>
 					<div class="download-link">
-							<a class="biglink" href="https://github.com/notpod/Notpod-1.x/zipball/notpod141">Notpod 1.4.1 source</a>						
+							<a class="biglink" href="https://github.com/notpod/Notpod-1.x/zipball/notpod141" onClick="recordOutboundLink(this, 'Outbound Links', 'https://github.com/notpod/Notpod-1.x/zipball/notpod141');return false;">Notpod 1.4.1 source</a>						
 					</div>
 					<div clear="clear" />
 					<div class="footer">
