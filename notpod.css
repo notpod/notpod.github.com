@@ -43,7 +43,6 @@ body {
 .description {
 
 	width: 900px;
-/*	height: 166px;*/
 	font-family: Verdana;
 	font-size: 14px;
 	text-align: left;	
@@ -53,7 +52,7 @@ body {
 
 .home-links {
 
-	height: 170px;
+	height: 60px;
 	font-size: 64px;
 	color: #3f7ec9;
 	font-family: georgia;
@@ -65,6 +64,17 @@ body {
 	
 	color: #3f7ec9;
 	text-decoration: none;
+}
+
+.social {
+	margin-top: 50px;
+	height: 70px;
+	font-size: 12pt;
+	color: #3f7ec9;
+	font-family: georgia;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .support-option {
